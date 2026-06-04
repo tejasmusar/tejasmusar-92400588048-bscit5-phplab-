@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<?php
+    include("header.php"); 
+    echo "<h2>hello, world!</h2>";
+    include("footer.php");  
+?>
+</body>
+</html>
+
+
+
+<br>
+
+
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<?php
+    require("header.php"); 
+    echo "<h2>Hello, World!</h2>";
+    require("footer.php");  
+    ?>
+</body>
+</html>
