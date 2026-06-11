@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Program 8 | 09/06/2026</title>
 </head>
 <body>
-<?php
-    error_reporting(0);
+    <?php
+        error_reporting(0);
     ?>
 
     <form method="get">
-        <input type="text" name="uname">
-        <input type="submit" name="submit" value="submit">
+    <b>Enter array values</b><br>
+    <input type="text" name="numbers" required>
+    <input type="submit" value="Submit">
 </form>
 
-<?php
-    $nm = $_GET['uname'];
-    echo "hello," .$nm;
+    <?php
+        $nm = $_GET['numbers'];
+        echo "The Array is: " . $nm;
     ?>
 </body>
 </html>
